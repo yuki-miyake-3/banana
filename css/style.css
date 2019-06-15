@@ -166,7 +166,6 @@ body{
 .project {
     text-align: center;
 
-    
 }
 
 .project-subtitle{
@@ -183,21 +182,20 @@ body{
     color: #60B8C1;
 }
 
-.arrow{
-    padding-bottom: 30px;
+.arrow img {
+    margin-bottom: 30px;
     height: 50px;
-    margin: auto;
 }
 
 .pj-title{
     margin-top: 40px;
-    margin: auto;
+   
     font-size: 30px;
     font-weight: bold;
     background:linear-gradient(transparent 60%, rgba(95,184,193,0.5) 0%);
     display: inline-block;
-/*    width: 400px;*/
     color: #707070;
+    
 }
 
 .project-text{
@@ -209,9 +207,7 @@ body{
 }
 
 
-   
-}
-.graph{
+.graph img{
     width:800px;
 }
 .AQUA{
