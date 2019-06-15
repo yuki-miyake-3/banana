@@ -162,12 +162,14 @@ body{
 }
 /*ファーストビュー終わり*/
 
+/*プロジェクトここから*/
 .project {
     text-align: center;
+
 }
 
-.project h4{
-    margin-top: 200px;
+.project-subtitle{
+    margin-top: 100px;
     font-size: 25px;
     margin-bottom: 40px;
     font-weight: normal;
@@ -177,18 +179,37 @@ body{
 .project h1{
     font-size: 45px;
     margin-bottom: 50px;
-    color: #707070;
+    color: #60B8C1;
 }
 
-.project .arrow img{
+.arrow img {
     margin-bottom: 30px;
+    height: 50px;
 }
 
-.project h2{
+.pj-title{
     margin-top: 40px;
+   
     font-size: 30px;
     font-weight: bold;
     background:linear-gradient(transparent 60%, rgba(95,184,193,0.5) 0%);
     display: inline-block;
     color: #707070;
+    
+}
+
+.project-text{
+    color: #707070;
+    margin: 70px;
+    line-height: 25px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.graph img{
+    width:800px;
+}
+.AQUA{
+    width: 900px;
 }
