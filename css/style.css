@@ -1,3 +1,4 @@
+
 /*ギャラリーここまで*/
 .gallery{
 	text-align: center;
@@ -61,3 +62,103 @@
 	margin-top: 80px;
 }
 /*アプリここまで
+=======
+body{
+    font-family: ”ヒラギノ角ゴ Pro W3″, “Hiragino Kaku Gothic Pro”;
+}
+
+/*header*/
+.header-toyota{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #707070;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.icon{
+    display: flex;
+/* つけたいやつの一つ上にflexつける   */
+    align-items: center;
+    margin-left: 30px;
+}
+.icon img {
+    height: 50px;
+}
+
+.toyota-header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-size: 12px;
+}
+.toyota-header-right li{
+    padding-right: 20px;
+}
+.toyota-header-right li:last-child{
+    padding-right: 0px;
+}
+
+.header-project{
+    display: flex;
+    justify-content: space-between;
+    background-color: #60B8C1;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0;
+    height: 60px;
+}
+
+.project-header-right{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-size: 15px;
+    margin-left:auto;
+}
+.project-header-right li{
+    padding-right: 20px;
+}
+.project-header-right li:last-child{
+    padding-right: 0px;
+}
+/*header終わり*/
+
+/*ファーストビュー*/
+
+.firstview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/ファーストビュー1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-attachment: fixed;*/
+    height: 100vh;
+    color: #fff;
+}
+.catch-copy{
+    font-family: Futura;
+    font-size: 30px;
+    margin-bottom: 20px;
+/*    display: inline-block;*/
+    text-align: left;
+    
+}
+
+.title{
+    font-size: 45px;
+    margin-bottom: 300px;
+    font-weight: normal;
+/*    display: inline-block;*/
+    text-align: left;
+}
+
+.firstview-text{
+    display: inline-block;
+    margin: auto;
+}
+/*ファーストビュー終わり*/
+
