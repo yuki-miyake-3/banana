@@ -162,3 +162,33 @@ body{
 }
 /*ファーストビュー終わり*/
 
+.project {
+    text-align: center;
+}
+
+.project h4{
+    margin-top: 200px;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: #707070;
+}
+
+.project h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.project .arrow img{
+    margin-bottom: 30px;
+}
+
+.project h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background:linear-gradient(transparent 60%, rgba(95,184,193,0.5) 0%);
+    display: inline-block;
+    color: #707070;
+}
