@@ -1,0 +1,29 @@
+.gallery{
+	text-align: center;
+}
+
+.gallery h1{
+	display:inline-block;
+	margin-bottom: 60px;
+	font-size: 40px;
+	background:linear-gradient(transparent 80%, #F9D349 0%);
+}
+
+.gallery p{
+	line-height: 40px;
+}
+
+.gallery .instagallery{
+	margin-top: 100px;
+}
+
+.App .container{
+	display: flex;
+	/*サイドの余白を全コンテンツの様子を見て調整*/
+	margin:;
+}
+
+/*画像に合わせてサイズ変更*/
+.App .app-img{
+
+}
