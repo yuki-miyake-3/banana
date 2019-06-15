@@ -1,4 +1,8 @@
+body{
+    font-family: ”ヒラギノ角ゴ Pro W3″, “Hiragino Kaku Gothic Pro”;
+}
 
+/*header*/
 .header-toyota{
     display: flex;
     justify-content: space-between;
@@ -54,3 +58,42 @@
 .project-header-right li:last-child{
     padding-right: 0px;
 }
+/*header終わり*/
+
+/*ファーストビュー*/
+
+.firstview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/ファーストビュー1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-attachment: fixed;*/
+    height: 100vh;
+    color: #fff;
+}
+.catch-copy{
+    font-family: Futura;
+    font-size: 30px;
+    margin-bottom: 20px;
+/*    display: inline-block;*/
+    text-align: left;
+    
+}
+
+.title{
+    font-size: 45px;
+    margin-bottom: 300px;
+    font-weight: normal;
+/*    display: inline-block;*/
+    text-align: left;
+}
+
+.firstview-text{
+    display: inline-block;
+    margin: auto;
+}
+/*ファーストビュー終わり*/
+
