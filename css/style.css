@@ -14,7 +14,13 @@
 	color: #707070;
 }
 
+.gallery .gallery_wrapper{
+  max-width: 700px;
+  margin: 0 auto;
+}
 .gallery p{
+  margin-right: auto;
+  text-align: left;
 	line-height: 40px;
 	color: #707070;
 }
@@ -111,14 +117,16 @@ body{
 }
 
 .project-header-right{
-    display: flex;
-    align-items: center;
-    margin-right: 80px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
     font-size: 15px;
-    margin-left:auto;
+    text-align: center;
 }
 .project-header-right li{
-    padding-right: 20px;
+/*    padding-right: 20px;*/
+    display: table-cell;
+    padding-top: 20px;
 }
 .project-header-right li:last-child{
     padding-right: 0px;
@@ -221,65 +229,115 @@ body{
 /*ライフスタイル*/
 
 .lifestyle{
-    
     background-color: rgba(250,193,114,0.2);
-    
+    text-align: center;
+    height: 2500px;
 }
 
 .lifestyle-title{
-    
-    text-align: center;
-/*効かないので　あとで幅与える    */
-    margin-top: 200px;
-    margin-bottom: 60px;
+    margin-top: 150px;
+    margin-bottom: 100px;
     display: inline-block;
     font-size: 40px;
     color:#707070;
     background:linear-gradient(transparent 80%,rgba(250,93,88,0.5) 0%);
 }
 
-.style{
-    text-align: center;
-    font-size: 30px;
-    margin: 50px;
+.lifestyle .style_style1{
+  font-size: 40px;
+  color: rgba(250,93,88,0.8);
+  margin-bottom: 40px;
 }
-.style1{
-  color: #fa5d58;  
+
+.lifestyle .style_style2{
+  font-size: 40px;
+  color: rgba(250,193,114,0.8);
+  margin-bottom: 40px;
 }
-.style2{
-  color: #fac172;
-}
-.style3{
-  color: #afcb67;
+
+.lifestyle .style_style3{
+  font-size: 40px;
+  color: rgba(175,203,103,0.8);
+  margin-bottom: 40px;
 }
 
 .lifestyle .container{
-	display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: auto;
-    
+	  display: flex;
+    width: 1000px;
+    margin: 0 auto 150px;
 }
+
+.item_1{
+    position: relative;
+    width: 500px;
+}
+
+.item_1 .image-friend{
+    position: absolute;
+    bottom: 420px;
+    right: 310px;
+    width: 50%;
+    height: 35%
+}
+
+.item_1 .image-family{
+    position: absolute;
+    bottom: -60px;
+    right: -40px;
+    width: 55%;
+    height: 35%
+}
+
+.item_1 .image-old{
+    position: absolute;
+    bottom: 400px;
+    right: 170px;
+    width: 75%;
+    height: 35%
+}
+
 .item_2{
     display: flex;
     flex-direction: column;
     color: #707070;
     background-color: white;
+    height: 500px;
+    width: 500px;
+}
+
+.item_2 h1{
+    font-size: 35px;
+    text-align: left; 
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    line-height: 50px;
+}
+
+.friend h1{
+    border-bottom: solid 6px rgba(250,93,88,0.8);
+}
+
+.family h1{
+    border-bottom: solid 6px rgba(250,193,114,0.8);
+}
+
+.old h1{
+    border-bottom: solid 6px rgba(175,203,103,0.8);
+}
+
+.item_2 p{
+    font-size: 20px;
+    color: #707070;
+    line-height: 40px;
+    margin-left: 50px;
+    text-align: left;
 }
 
 .item_1 img{
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
-
-
-
-
-
-
-
-
-
 
 /*ボタン＿通常時*/
 .btn {
@@ -289,11 +347,14 @@ body{
   padding: 0.25em 0.5em;
   text-decoration: none;
   transition: .4s;
+  font-size: 30px;
+  width: 200px;
+  margin: auto;
 }
 
 .btn-friend{
   color: white;
-  background: #fa5d58;
+  background: rgba(250,93,88,0.5);
 }
 .btn-family{
   color: white;
@@ -311,7 +372,7 @@ body{
 }
 */
 .btn-friend:hover{
-  color: #fa5d58;
+  color: rgba(250,93,88,0.5);
   background: white;
 }
 .btn-family:hover{
@@ -385,12 +446,12 @@ body{
 .gauge h1{
     font-size: 30px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 80px;
-    border-bottom: solid 3px #707070;
+    border-bottom: solid 2px #707070;
     padding: 5px; 
     display: inline-block; 
-    color: #707070;
+    color: #60B8C1;
 }
 
 .gauge .wrapper{
@@ -486,6 +547,7 @@ body{
     text-decoration: none;
     color: #60B8C1;
 }
+
 /*フッターはここから*/
 footer{
     display: flex;
