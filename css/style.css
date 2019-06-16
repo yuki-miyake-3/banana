@@ -378,3 +378,121 @@ body{
     width: 900px;
 }
 
+/*ゲージはここから*/
+.gauge {
+    text-align: center;
+}
+.gauge h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    border-bottom: solid 3px #707070;
+    padding: 5px; 
+    display: inline-block; 
+    color: #707070;
+}
+
+.gauge .wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.gauge p{
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    color: #707070;
+    line-height: 30px;
+}
+
+.gauge .gauge_image img{
+    width: 1200px;
+    margin: 80px auto 100px auto;
+}
+
+/*購入サポートはここから*/
+.support{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.support h1{
+    font-size: 35px;
+    display:inline-block;
+    margin-bottom: 100px;
+    background:linear-gradient(transparent 60%, rgba(95,184,193,0.5) 0%);
+    color: #707070;
+}
+
+.support .botton{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+
+.support .botton .support_botton1{
+  width: 400px;
+  position: relative;
+  padding-top: 75px; 
+  padding-bottom: 75px;
+  margin-right: 80px;
+  display: inline-block;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  background: #60B8C1;
+  transition: .4s;
+  
+}
+
+.support .botton .support_botton1:hover{
+  background: #60B8C1;
+  color: white;
+}
+
+.support .botton .support_botton2{
+  width: 400px;  
+  position: relative;
+  padding-top: 75px; 
+  padding-bottom: 75px;
+  display: inline-block;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  background: #FAC172;
+  transition: .4s;
+}
+
+.support .botton .support_botton2:hover{
+  background: #FAC172;
+  color: white;
+}
+
+/*TOYOTA AQUAリンクはここから*/
+.toyota-link{
+    margin-left: 200px;
+    margin-bottom: 100px;
+    line-height: 30px;
+}
+
+.toyota-link p{
+    color: #707070;
+    font-size: 25px;
+}
+
+.toyota-link .address{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #60B8C1;
+}
+/*フッターはここから*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #60B8C1;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0;
+    height: 60px;
+}
