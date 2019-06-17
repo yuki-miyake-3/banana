@@ -33,7 +33,7 @@
 /*ここからアプリ*/
 .App{
 	background-color: rgba(250,193,114,0.2);
-  height: 1100px;
+    height: 1100px;
 }
 
 .App .headline{
@@ -58,30 +58,37 @@
 
 .App .app-img{
 	/*画像に合わせてサイズ変更*/
+    height: 695px;
+    width: 334px;
 }
 
 .App .item_2{
 	color: #707070;
-	line-height: 40px;
+/*	line-height: 20px;*/
   height: 700px;
 }
 
 .App .item_2 h3{
   margin-left: 50px;
   margin-top: 40px;
+　margin-bottom: 20px;
 }
 
 .App .item_2 p{
   margin-right: 50px;
+    margin-top:30px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .App .about_app{
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 .App .app_buttun{
 /*  margin-top: 50px;*/
   margin-left: 50px;
+    margin-top:30px;
 }
 /*アプリここまで*/
 =======
