@@ -196,6 +196,43 @@ body{
 }
 /*ファーストビュー終わり*/
 
+/*固定ボタン*/
+.btn-group .btn{
+    z-index: 999;
+    right: 0;
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    border-style: none;
+    letter-spacing: 5px;
+}
+.btn-group #document{
+    position: fixed;
+    background-color: #60B8C1;
+    top: 600px;
+    
+}
+.btn-group #reserve{
+    position: fixed;
+    background-color: #F9D349;
+    top: 680px;
+}
+
+.btn-group #document:hover{
+    background-color: white;
+    color: #60B8C1;
+}
+
+.btn-group #reserve:hover{
+    background-color: white;
+    color: #F9D349;
+}
+
+/*固定ボタン終わり*/
+
+
 /*プロジェクトここから*/
 .project {
     text-align: center;
