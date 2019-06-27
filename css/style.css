@@ -130,6 +130,11 @@ body{
     padding-right: 0px;
 }
 
+.toyota-header-right a{
+    text-decoration: none;
+    color: black;
+}
+
 .header-project{
     display: flex;
     justify-content: space-between;
@@ -154,6 +159,12 @@ body{
     display: table-cell;
     padding-top: 20px;
 }
+
+.project-header-right a{
+    text-decoration: none;
+    color: white;
+}
+
 .project-header-right li:last-child{
     padding-right: 0px;
 }
@@ -216,7 +227,7 @@ body{
 }
 .btn-group #reserve{
     position: fixed;
-    background-color: #F9D349;
+    background-color: #FAC172;
     top: 680px;
 }
 
@@ -227,7 +238,7 @@ body{
 
 .btn-group #reserve:hover{
     background-color: white;
-    color: #F9D349;
+    color: #FAC172;
 }
 
 /*固定ボタン終わり*/
